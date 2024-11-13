@@ -1,0 +1,48 @@
+.edu-main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.edu-text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.box-con-edu{
+    width: 80%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 1px 4px 10px gray;
+}
+.uni-name{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.computer{
+    width: 50%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media screen and (min-width:0px) and (max-width:750px) {
+    .box-con-edu{
+        flex-direction: column;
+    }
+    .computer{
+        width: 100%;
+    }
+    .edu-text{
+        width: 90%;
+    }
+}
