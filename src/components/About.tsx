@@ -15,6 +15,7 @@ function About() {
                  height={200}
                  className="header-image"
                  alt="profile"></Image>
+                
 
                  <div className="social-icons">
                     <div className="s-icon1">
