@@ -1,9 +1,7 @@
 import Image from "next/image";
 import "../style/Hero.css";
 import "../style/About.css";
-import { FaYoutube } from "react-icons/fa";
-import { FaFacebook } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa";
+import { Youtube ,Facebook , Instagram } from 'lucide-react';
 
 
 function About() {
@@ -20,15 +18,16 @@ function About() {
 
                  <div className="social-icons">
                     <div className="s-icon1">
-                    <FaYoutube/>
+                    <Youtube />
+
                  </div>
 
                  <div className="s-icon2">
-                 <FaFacebook />
+                 <Facebook />
                  </div>
 
                  <div className="s-icon3">
-                 <FaInstagram />
+                 <Instagram />
                  </div>
                  </div>
                 </div>
