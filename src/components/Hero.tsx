@@ -16,7 +16,7 @@ function Hero() {
                 {/* right */}
                 <div className="hero-right-div">
                     <h1 className="title-hero">
-                        I'm Faiza Sheikh
+                        I&apos;m Faiza Sheikh
                         Front-end Developer </h1>
                         <p className="des-hero">I have experience building websites using HTML, CSS, JavaScript, and TypeScript. I’m skilled in creating responsive, user-friendly designs. I’m also learning advanced web development to improve my abilities even more.</p>
                         <button className="hero-btn">Hire me </button>
